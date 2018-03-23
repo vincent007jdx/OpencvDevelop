@@ -60,6 +60,7 @@ void MyPixItem::mouseReleaseEvent(QGraphicsSceneMouseEvent *)
 //双击复位
 void MyPixItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event)
 {
+    Q_UNUSED(event)
     setPos(0,0);
     m_scaleValue = 0;
     setScale(1);

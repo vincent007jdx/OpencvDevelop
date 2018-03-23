@@ -180,7 +180,7 @@ void MyImageList::receiveAction()//收到消息刷新列表
 
 void MyImageList::showTableView(Mat imageData,QString textData,QString strVariable,int rows)
 {
-
+    Q_UNUSED(rows)
     ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->tableView->setAutoScroll(true);
     QStandardItemModel *model = new QStandardItemModel;

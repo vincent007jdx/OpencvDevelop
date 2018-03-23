@@ -1,5 +1,5 @@
 ﻿#include "variatedialog.h"
-#include "ui_variatedialog.h"
+//#include "ui_variatedialog.h"
 #include "mainwindow.h"
 #include <QString>
 #include <QMessageBox>
