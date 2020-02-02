@@ -82,6 +82,7 @@ void ImageLook::showImage(Mat matL,QString nameL,QString controlName)
 
 void ImageLook::mouseDoubleClickEvent(QMouseEvent *e)
 {
+    Q_UNUSED(e)
     ////////***********图片复原代码**************/////
     pixItem->setPos(0,0);
     pixItem->setScaleValue(1);
